@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 8px;    
+    height: 100vh;
+    background-color: aqua;
+}
+.form-container{
+    display: flex;
+    gap: 1rem;
+}
+input{
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+.input-container{
+    border-radius: 0.5rem;
+    border: 2px transparent;
+}
+.input-container:focus-within{
+    border: 2px orange;
+}
+.search{
+    padding: 0.5rem;
+    background-color: blueviolet;
+    color: brown;
+    font-weight: bold;
+}
+.results{
+    background-color: #fff;
+    border-radius: 0.5rem;
+    width: 45%;
+}
+.street-name{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
